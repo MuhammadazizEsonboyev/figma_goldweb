@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.logo {
+    margin-top: -20px;
+}
+
+
+nav {
+    padding-top: 36px;
+}
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.list_item {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.12em;
+    /* letter-spacing: 3px ; */
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0D233F;
+    cursor: pointer;
+}
+
+
+.phone_num {
+    padding-left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.phone_num span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FF7300;
+}
+
+
+header{
+    padding-top: 176px;
+}
+
+
+.text {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    color: #0C243E;
+}
+
+
+.one_price {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    color: #0C243E;
+    letter-spacing: 0.275em;
+}
+
+
+.text_info {
+    display: flex;
+    align-items: center;
+}
+
+
+.text_one {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0C243E;
+}
+
+
+.text_two {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0C243E;
+}
+
+
+.btn_text {
+    padding: 16px 74px;
+    border: none;
+    background: #FF7300;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+
+
+.left_image{
+    margin-top: -60px;
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 1px 1px 30px black;
+}
